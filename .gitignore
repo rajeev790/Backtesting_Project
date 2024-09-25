@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+logs/
+debug.log
+
+# Data files
+data/
+*.feather
+*.parquet
+*.csv
+*.json
+
+# Reports
+reports/*.csv
+reports/*.json
+reports/*.png
+reports/*.md
+
+# Config files
+config/*.yaml
+config/*.json
+
+# Temporary files and directories
+tmp/
+temp/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Docker-related files
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore pytest cache
+.cache/
+.pytest_cache/
+
+# Unit test / coverage reports
+coverage/
+*.cover
+*.coverage
+*.coverage.*
+*.pyo
+*.pyd
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts and caches
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+wheels/
+.pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+
+# Ignore compiled Cython files
+*.c
+*.cpp
+
+# Ignore backup files
+*.bak
+*.swp
+*~
